@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://dq16km1arclpc"]
+
+[ext_resource type="PackedScene" uid="uid://b38e038bv68tr" path="res://scenes/saroutkeeper.tscn" id="1_o5qli"]
+
+[node name="Main" type="Node2D" unique_id=2059929757]
+
+[node name="Saroutkeeper" parent="." unique_id=1504535596 instance=ExtResource("1_o5qli")]
+position = Vector2(600, 317)

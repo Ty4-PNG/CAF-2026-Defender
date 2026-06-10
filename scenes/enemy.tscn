@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://cw5i5yukm52g4"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_8tegq"]
+animations = [{
+"frames": [],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}]
+
+[node name="enemy" type="CharacterBody2D" unique_id=1299330437]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=347969880]
+sprite_frames = SubResource("SpriteFrames_8tegq")
+animation = &"Idle"
